@@ -55,7 +55,7 @@
      or the standard way, may give some warning
    
 
-        `import viteLogo from '/vite.svg'`
+       `import viteLogo from '/vite.svg'`
    
    
 11) When we want to save, we simply commit and push to the main branch. When we want to build to 
