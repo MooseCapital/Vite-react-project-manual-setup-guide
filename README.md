@@ -21,11 +21,13 @@
 
 
 4) make sure to install npm when asked -> go into package.json -> in the scripts section add the code
-`"deploy": "gh-pages -d dist"`
+
+    `"deploy": "gh-pages -d dist"`
 
 
 5) go to vite.config.js -> after plugins, write base with the current directory on Github
-` base: "/github project directory"`
+
+    ` base: "/github project directory"`
 
 
 6) go to src -> App.css -> delete everything
@@ -59,8 +61,8 @@ or the standard way, may give some warning
 11) When we want to save, we simply commit and push to the main branch. When we want to build to 
     Github pages we must do this.
 
-`npm run build`
-
-`npm run preview`
-
-`npm run deploy`
+    `npm run build`
+    
+    `npm run preview`
+    
+    `npm run deploy`
