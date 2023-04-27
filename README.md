@@ -61,8 +61,8 @@
 11) When we want to save, we simply commit and push to the main branch. When we want to build to 
     Github pages we must do this.
 
-    ```npm run build```
+```npm run build```
     
-    ```npm run preview```
+```npm run preview```
     
-    ```npm run deploy```
+```npm run deploy```
