@@ -49,13 +49,13 @@
 
     to link properly we must store all images in the **Public** folder. If we hotlink , there is no local storage.
 
-   `const viteLogo = new URL('/vite.svg', import.meta.url).href`
+      `const viteLogo = new URL('/vite.svg', import.meta.url).href`
 
 
-or the standard way, may give some warning
+        or the standard way, may give some warning
    
 
-   `import viteLogo from '/vite.svg'`
+        `import viteLogo from '/vite.svg'`
    
    
 11) When we want to save, we simply commit and push to the main branch. When we want to build to 
