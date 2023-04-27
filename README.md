@@ -12,8 +12,7 @@
     
     when we go to commit & push for the first time, here we define remote branch. If we use the ssh 
    link on Github, then we will not have to retype password when we run 
-   
-   `Npm run deploy`    
+`Npm run deploy` in the future.
 
 
 3) Add all our files to git except the configs
@@ -41,23 +40,27 @@
 
 9) Install gh-pages that lets us easily deploy to gh-pages branch
     
-   `Npm install gh-pages –save-dev`
+   `npm install gh-pages --save-dev`
 
 
-10) **Link Images**: When we want to link images, we get errors due to building the Public Directory files 
+10) **Link Images**: When we want to link images, we get errors due to building in the Public Directory files 
 
-    to link properly we must store all images in the Public folder. If we hotlink , there is no local storage.
+    to link properly we must store all images in the **Public** folder. If we hotlink , there is no local storage.
 
-   `const viteLogo = new URL('/public/vite.svg', import.meta.url).href`
+   `const viteLogo = new URL('/vite.svg', import.meta.url).href`
 
-    or the standard way, may give some warning
+
+or the standard way, may give some warning
    
-   `import viteLogo from '/public/vite.svg'`
+
+   `import viteLogo from '/vite.svg'`
    
    
 11) When we want to save, we simply commit and push to the main branch. When we want to build to 
     Github pages we must do this.
-   
-   `Npm run build`
-    `Npm run preview`
-    `Npm run deploy`
+
+`npm run build`
+
+`npm run preview`
+
+`npm run deploy`

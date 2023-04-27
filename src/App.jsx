@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+const mooseImg = new URL('/Realistic-Moose.png', import.meta.url).href
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +29,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+        <img src={mooseImg} alt=""/>
     </div>
   )
 }
