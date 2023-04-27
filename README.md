@@ -4,8 +4,8 @@
 1) In webstorm -> file -> new project -> **vite -> make sure to click React vite then name project.**
 
 
->we must create the project locally because
->webstorm handles configs simply. Rather than us cloning an empty github config and installing vite-react ourself. 
+    >we must create the project locally because
+    >webstorm handles configs simply. Rather than us cloning an empty github config and installing vite-react ourself. 
 
 
 2) Go to Version control at bottom -> **create repository, this creates local repo only**
@@ -32,7 +32,7 @@
 
 6) go to src -> App.css -> delete everything
 
->we will be putting all our css for the app in App.css, we start with a clean slate
+    >we will be putting all our css for the app in App.css, we start with a clean slate
 
 7) go to Index.css -> and delete everything -> copy the Index.css from here to our new project for nice working defaults we like.
 
