@@ -52,7 +52,7 @@
       `const viteLogo = new URL('/vite.svg', import.meta.url).href`
 
 
-        or the standard way, may give some warning
+     or the standard way, may give some warning
    
 
         `import viteLogo from '/vite.svg'`
