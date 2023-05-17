@@ -33,7 +33,7 @@
     
     go to main.jsx or where react is rendered and go into the browser router to add basename
     
-    `<Router basename={'/github-repo-name'}>`
+    `<BrowserRouter basename={'/github-repo-name'}>`
 
 
 5) go to vite.config.js -> after plugins, write base with the current directory on Github
