@@ -1,5 +1,5 @@
 
-# vite react setup guide
+# vite react manual setup guide
 
 1) In webstorm -> file -> new project -> **vite -> make sure to click React vite then name project.**
 
